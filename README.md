@@ -12,7 +12,7 @@ home assistant, ha
 #### router firmware
 - CC1352P2_CC2652P_launchpad_router_20221102.hex
 #### flash firmware 
-- ti flash programmer 2 -> Error -> 'Unknown record type: 3'
+- ti flash programmer 2 -> Error -> 'Unknown record type: 3' -> firmware 개발자는 firmware 문제 없다고 하고 이 flash programmer 2에 버그가 있다고 함.
 - cc2538-bsl.py -> ERROR -> int() can't convert non-string with explicit base
 - zigbee-3.0-usb-dongle-plus-uartLog : for flash programmer 2 to enter flash mode
 - ZigbeeStar GW Multi tool - 2021 - 0.41 -> flash ok : scs

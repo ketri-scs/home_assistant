@@ -1,14 +1,17 @@
 # home_assistant
 home assistant, ha
 
-## zigbee dongle
-### sonoff zigbee 3.0 usb dongle plus
+# zigbee dongle
+## sonoff ZBDongle-E 
+- ti 칩 아님
+- 평판 좋지 않아 사용하지 않기로 함
+## sonoff zigbee 3.0 usb dongle plus
 - zigbee : cc2652p <- ti
 - usb : cc2102n
-#### coordinator firmware
+### coordinator firmware
 #### router firmware
 - CC1352P2_CC2652P_launchpad_router_20221102.hex
-##### flash firmware 
+#### flash firmware 
 - ti flash programmer 2 -> Error -> 'Unknown record type: 3'
 - cc2538-bsl.py -> ERROR -> int() can't convert non-string with explicit base
 - zigbee-3.0-usb-dongle-plus-uartLog : for flash programmer 2 to enter flash mode

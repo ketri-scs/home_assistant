@@ -39,3 +39,7 @@ home assistant, ha
   },
   "brightness": 90
 }
+
+### scene
+- tuya led 자체 scene 기능 버그
+- settings -> automations & scenes -> script : service call에서 'MQTT: Publish'로 해결

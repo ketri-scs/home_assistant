@@ -17,3 +17,25 @@ home assistant, ha
 - zigbee-3.0-usb-dongle-plus-uartLog : for flash programmer 2 to enter flash mode
 - ZigbeeStar GW Multi tool - 2021 - 0.41 -> flash ok : scs
 - ![image](https://github.com/ketri-scs/home_assistant/assets/74283411/21dd441d-c372-42d5-8625-ce318a114494)
+
+## tuya led 
+- Zigbee Model: TS0505B
+- Zigbee Manufacturer: _TZ3210_mja6r5ix
+- Description: Zigbee 3.0 18W led light bulb E27 RGBCW
+- Firmware version: z.1.0
+- Model: TS0505B_2_1
+### topic
+#### subscribe
+- zigbee2mqtt/test_led
+  {"brightness":76,"color":{"h":2.1079772760419413,"hue":2.1079772760419413,"s":94.3829089764056,"saturation":94.3829089764056},"color_mode":"hs","color_temp":296,"do_not_disturb":false,"linkquality":135,"state":"OFF"}
+#### publish
+- zigbee2mqtt/test_led/set
+{
+  "state": "ON",
+  "color": {
+    "r": 255,
+    "g": 0,
+    "b": 0
+  },
+  "brightness": 90
+}

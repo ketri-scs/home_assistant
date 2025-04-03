@@ -18,6 +18,9 @@ home assistant, ha
 - ZigbeeStar GW Multi tool - 2021 - 0.41 -> flash ok : scs
 - ![image](https://github.com/ketri-scs/home_assistant/assets/74283411/21dd441d-c372-42d5-8625-ce318a114494)
 
+#### router pairing
+- 펌웨어를 다시 내리고 동글을 리부팅하면 잘된다. 버튼 안눌러도 됨.
+
 ## tuya led 
 - Zigbee Model: TS0505B
 - Zigbee Manufacturer: _TZ3210_mja6r5ix

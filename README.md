@@ -20,6 +20,8 @@ home assistant, ha
 
 #### router pairing
 - 펌웨어를 다시 내리고 동글을 리부팅하면 잘된다. 버튼 안눌러도 됨.
+- ha에서 강제 삭제하면 펌웨어 다시 내려야 함.
+- ha에서 정상 삭제하면 펌웨어 내릴 필요없고 자동으로 다시 pairing 됨.
 
 ## tuya led 
 - Zigbee Model: TS0505B
